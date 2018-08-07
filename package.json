@@ -13,6 +13,19 @@
     "http-errors": "~1.6.2",
     "mongodb": "^3.1.1",
     "mongoose": "^5.2.7",
+    "mongoose-auto-increment": "^5.0.1",
     "morgan": "~1.9.0"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoserPanda/restmycode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoserPanda/restmycode/issues"
+  },
+  "homepage": "https://github.com/LoserPanda/restmycode#readme",
+  "description": ""
 }
