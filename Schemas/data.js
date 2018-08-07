@@ -11,8 +11,11 @@ var datab = new Schema({
     lang: String,
     date: Date,
     tags: [String],
-    score: number,
-    code: String
+    score: Number,
+    code: String,
+    comments: [{
+        name: String,
+        comment: String}]
 },{
     collection: 'datafiles'
 });
