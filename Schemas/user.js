@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-const User = mongoose.Schema;
+const Schema = mongoose.Schema;
 const mongooseautoincrement = require('mongoose-auto-increment');
 
 
-var user = new User({
+var user = new Schema({
     _id: new mongoose.Types.ObjectId(),
     name: String,
     password: String
@@ -11,4 +11,4 @@ var user = new User({
     collection: 'userdata'
 });
 
-module.exports = mongoose.model('user', user);
+module.exports = mongoose.model('User', user);

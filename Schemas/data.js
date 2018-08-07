@@ -17,4 +17,5 @@ var datab = new Schema({
     collection: 'datafiles'
 });
 
-module.exports = mongoose.model('data', datab);
+module.exports = mongoose.model('Data', datab);
+
